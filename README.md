@@ -2,7 +2,7 @@
 
 Facial Comparison and Face Detection SDK for Android and IOS
 
-Get your Liveness credentials from [Blusalt](https://blusalt.net/)
+Get your Liveness credentials and application ID registration from [Blusalt](https://blusalt.net/)
 
 ## Features
 

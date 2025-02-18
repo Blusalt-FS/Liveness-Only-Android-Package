@@ -86,8 +86,8 @@ android {
     
     ...
     dependencies {
-      implementation 'net.blusalt:liveness_android_data:1.3-1'
-      implementation 'net.blusalt:liveness_android_core:1.3-1'
+      implementation 'net.blusalt:liveness_android_data:1.3-2'
+      implementation 'net.blusalt:liveness_android_core:1.3-2'
     }
     ...
 }

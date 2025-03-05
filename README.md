@@ -134,7 +134,7 @@ Int timeoutDuration = 120; (Optional, can be null; default to 120 second)
                 .setApiKey("")
                 .setIsDev(false)
                 .setReference("")
-                .setWebhookUrl("") // Reference is required
+                .setWebhookUrl("") // setReference is required
                 .startProcessOnGettingToFirstScreen(false)
                 .setImageByte(null)
                 .setLivenessType(LivenessFacialComparisonType.MOTIONAL)
@@ -160,7 +160,7 @@ Int timeoutDuration = 120; (Optional, can be null; default to 120 second)
                 .setApiKey("")
                 .setIsDev(false)
                 .setReference("")
-                .setWebhookUrl("") // Reference is required
+                .setWebhookUrl("") // setReference is required
                 .startProcessOnGettingToFirstScreen(false)
                 .setLivenessType(LivenessDetectionOnlyType.MOTIONAL)
                 .setTimeoutDuration(120)

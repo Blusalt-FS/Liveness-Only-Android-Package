@@ -86,8 +86,8 @@ android {
     
     ...
     dependencies {
-      implementation 'net.blusalt:liveness_android_data:1.3-2'
-      implementation 'net.blusalt:liveness_android_core:1.3-2'
+      implementation 'net.blusalt:liveness_android_data:1.4-1'
+      implementation 'net.blusalt:liveness_android_core:1.4-1'
     }
     ...
 }
@@ -133,6 +133,7 @@ Int timeoutDuration = 120; (Optional, can be null; default to 120 second)
                 .setAppName("")
                 .setApiKey("")
                 .setIsDev(false)
+                .setReference("")
                 .setWebhookUrl("")
                 .startProcessOnGettingToFirstScreen(false)
                 .setImageByte(null)
@@ -158,6 +159,7 @@ Int timeoutDuration = 120; (Optional, can be null; default to 120 second)
                 .setAppName("")
                 .setApiKey("")
                 .setIsDev(false)
+                .setReference("")
                 .setWebhookUrl("")
                 .startProcessOnGettingToFirstScreen(false)
                 .setLivenessType(LivenessDetectionOnlyType.MOTIONAL)
